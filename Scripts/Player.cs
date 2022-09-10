@@ -60,6 +60,7 @@ public class Player : MonoBehaviour
 
     private float GetJumpSpeed(float gravity, float jumpHigh)
     {
+        //result of solve H = Vy0t+gt^2/2 for V0 when V0t = gt^2/2.
         return Mathf.Sqrt(-2 * gravity * jumpHigh);
     }
 
