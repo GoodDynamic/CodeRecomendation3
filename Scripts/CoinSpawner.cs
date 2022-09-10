@@ -11,7 +11,6 @@ public class CoinSpawner : MonoBehaviour
     [SerializeField] private float _resurrectionDelay;
     
     private List<Coin> _coins = new List<Coin>();
-
     private AudioSource _audioSource;
     private Transform[] _spawnPoints;
 
